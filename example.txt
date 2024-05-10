@@ -41,5 +41,3 @@ Client syslog daemons should send data into the datadiode-syslog-amplifier:
  Similar settings for BSD syslog and syslog-ng if they are the choice over rsyslog.
 
 
-alin.anton -> cs.upt.ro
-
