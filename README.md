@@ -19,7 +19,7 @@ Another example is for MySQL/MariaDB incremental backup. The tools are mysqlback
 
 On the sender side:
 	tar -cvzf - xtrabackup/* | split -b 1024M - "DD-part" 
-	lastone=`ls DD-part* | tail -n1`  
+	lastone=\`ls DD-part* | tail -n1\`  
 	mv "$lastone" "$lastone".EOF 
 
 On the receiver side:
