@@ -1,5 +1,7 @@
 # data-diode software
 
+If this file is not rendered correctly, read example.txt
+
 Static arp should be set for each side of the data diode.
 
 Place the following line in a crontab script for the root user if you want to upload files from a SRCDIR directory when unchanged for 1 minute:
