@@ -1,0 +1,249 @@
+﻿Aceasta este o traducere neoficială a Licenței GNU General Public License (GNU GPL) în limba română. Aceasta nu a fost publicată de Fundația pentru Software Liber, și nu constituie termenii juridici pentru software care utilizează GNU GPL – numai textul original în limba engleză al licenței GNU GPL face acest lucru. Totuși, sperăm că această traducere va conduce la o mai bună înțelegere a vorbitorilor de limbă română a licenței GNU GPL.
+
+Aveți permisiunea de a republica această traducere, modificată sau nemodificată, numai conform cu termenii de la http://www.gnu.org/licenses/translations.html.
+
+This is an unofficial translation of the GNU General Public License into Romanian. It was not published by the Free Software Foundation, and does not legally state the distribution terms for software that uses the GNU GPL—only the original English text of the GNU GPL does that. However, we hope that this translation will help Romanian speakers understand the GNU GPL better. 
+
+You may publish this translation, modified or unmodified, only under the terms at http://www.gnu.org/licenses/translations.html.
+
+
+
+LICENȚĂ GNU PENTRU PUBLICUL GENERAL 
+Versiunea 3, 29 iunie 2007 
+ 
+Drepturi de autor (C) 2007 Free Software Foundation, Inc. https://fsf.org/ 
+Tuturor li se permite să copieze și să distribuie copii textuale ale acestui document de licențiere, însă modificarea acestuia este interzisă.  
+ 
+CUVÂNT-ÎNAINTE 
+ 
+Licența GNU pentru publicul general este o licență gratuită, de tip „copyleft” pentru programe software și alte tipuri de lucrări.  
+
+Licențele pentru majoritatea programelor software și pentru alte lucrări practice sunt create pentru a vă restricționa libertatea de a partaja și modifica lucrările. Spre deosebire de acestea, Licența GNU pentru publicul general a fost creată pentru a vă garanta libertatea de a partaja și modifica toate versiunile unui program – pentru a ne asigura că programul software rămâne gratuit pentru toți utilizatorii săi. Noi, cei de la Free Software Foundation, folosim Licența GNU pentru publicul general la majoritatea programelor noastre software; aceasta se aplică și la alte lucrări emise în acest fel de către autorii acestora. Și dvs. o puteți aplica programelor dvs.  
+Când vorbim de un program software gratuit, ne referim la libertate, nu la preț. Licențele noastre pentru publicul general sunt create pentru a ne asigura că aveți libertatea de a distribui copii ale programului software gratuit (pentru care puteți și solicita un preţ, dacă doriți), că primiți codul-sursă sau că îl puteți primi dacă îl doriți, pentru a putea modifica programul software sau pentru a putea folosi părți din acesta în cadrul unor noi programe, și pentru ca dvs. şi să știți că puteți să faceți aceste lucruri.  
+
+Pentru a vă proteja drepturile, noi trebuie să-i împiedicăm pe alții să vă refuze aceste drepturi sau să vă solicite să renunțați la ele. Drept pentru care, aveți anumite responsabilități în cazul în care distribuiți còpii ale programului software, sau dacă îl modificați: responsabilități de a respecta libertatea celorlalți.   
+De exemplu, dacă distribuiți còpii ale unui astfel de program, fie gratuit sau contra-cost, va trebui să transferați către destinatari aceleași libertăți de care v-ați bucurat și dvs. Trebuie să vă asigurați că și ei primesc, sau pot primi codul-sursă. Și trebuie să le faceţi cunoscuți acești termeni, pentru ca ei să-și cunoască drepturile.  
+
+Dezvoltatorii care folosesc GNU GPL vă protejează drepturile în doi pași: 
+
+(1) atribuie programului software drepturi de autor, și (2) vă oferă Licența de față, acordânduvă totodată permisiunea de a o copia, distribui și/sau modifica.  
+
+În vederea protejării dezvoltatorilor și autorilor, GPL explică în mod clar că nu există nicio garanție cu privire la acest program software gratuit. Pentru binele utilizatorilor, cât și pentru cel al autorilor, GPL solicită ca versiunile modificate să fie marcate ca fiind modificate, pentru ca problemele apărute în cadrul acestora să nu fie atribuite în mod eronat autorilor versiunilor anterioare.  
+
+Unele dispozitive sunt create pentru a interzice utilizatorilor accesul de a instala sau de a rula versiuni modificate ale programelor software din interiorul lor, deși producătorul poate face acest lucru. Acest lucru este fundamental incompatibil cu scopul protejării libertății utilizatorilor de a modifica programul software. Tiparul sistematic al acestui tip de abuz apare în zona produselor create pentru uzul individual, care este locul unde acest lucru este cel mai inacceptabil. Drept pentru are, noi am creat această versiune a GPL, în vederea interzicerii acestei practici pentru aceste produse. În cazul în care astfel de probleme apar în mod substanțial în alte domenii, noi suntem gata să extindem această prevedere asupra respectivelor domenii în cadrul versiunilor viitoare ale GPL, după cum nevoia o va cere, în vederea protejării libertății utilizatorilor. 
+
+În final, fiecare program este amenințat în mod constant de către brevetele software. Statele nu ar trebui să permită ca brevetele să restricționeze dezvoltarea și utilizarea programelor software pe computere de uz general, însă acolo unde acest lucru are loc, dorim să evităm pericolul special, ca aceste brevete aplicate unui program gratuit, să îl facă de acesta de fapt să fie ca un program cu drept de proprietate. Pentru a preveni acest lucru, GPL se asigură că brevetele nu pot fi folosite pentru a face dintr-un program gratuit, unul contra-cost. 
+Mai jos pot fi regăsiți termenii și condițiile privind copierea, distribuirea și modificarea.  
+ 
+TERMENI ȘI CONDIȚII 
+ 
+0. DEFINIȚII 
+ 
+„Această Licență” se referă la versiunea 3 a licenței GNU pentru publicul general. 
+ 
+„Drept de autor” se referă de asemenea și la legile de tip drept de autor care se aplică altor tipuri de lucrări, cum ar fi măștile semiconductoare.  
+ 
+„Programul” se referă la orice lucrare căreia i se pot aplica drepturile de autor sub prezenta Licență. Ne vom adresa fiecărei persoane care are o licenţă cu „dumneavoastră”. „Persoana cu licenţă” și „destinatarii” pot fi persoane fizice sau persoane juridice.  
+ 
+„Modificarea” unei lucrări înseamnă a copia sau a adapta integral sau parțial o lucrare, într-un mod în care este nevoie de permisiunea acordată prin drepturile de autor, în alt mod decât prin realizarea unei còpii exacte. Lucrarea rezultată este denumită o „versiune modificată” a lucrării anterioare sau o lucrare „bazată pe” lucrarea anterioară.  
+ 
+O „lucrare acoperită” înseamnă fie Programul nemodificat, sau o lucrare bazată pe Program.  
+ 
+A „propaga” o lucrare înseamnă faptul că se poate face cu ea orice, ce fără permisiune, v-ar face în mod direct sau secundar responsabil de încălcarea legii aplicabile privind drepturile de autor, cu excepția executării acesteia pe un computer sau a modificării unei còpii private. 
+Propagarea include copierea, distribuirea (cu sau fără modificare), punerea la dispoziția publicului, iar în unele țări, şialte activități.  
+ 
+A „transmite” o lucrare înseamnă orice fel de distribuire a acesteia, care le permite terților să realizeze sau să primească còpii. Simpla interacțiune cu un utilizator, printr-o rețea de computere, fără transferarea unei còpii, nu reprezintă transmitere.  
+ 
+O interfață interactivă de utilizator afișează „notificări legale adecvate” în măsura în care aceasta include o funcție convenabilă și foarte vizibilă care (1) afișează o notificare adecvată de drepturi de autor, și (2) informează utilizatorul că nu există niciun fel de garanție pentru lucrarea respectivă (cu excepția situației în care se oferă garanții), că licențele pot distribui lucrarea sub prezenta Licență, și modul în care poate fi vizualizată o copie a Licenței de față. În situația în care interfața prezintă o listă de comenzi sau opțiuni pentru utilizator, ca de exemplu un meniu, un element important din listă întrunește acest criteriu.  
+ 
+1. Codul-sursă 
+ 
+„Codul-sursă” al unei lucrări înseamnă forma preferată a lucrării, pe care se pot aduce modificări acesteia. „Codul-obiect” semnifică orice formă non-sursă a unei lucrări.  
+ 
+O „interfață standard” înseamnă o interfață care fie reprezintă un standard oficial definit de către un organism de standardizare recunoscut, fie, în cazul interfețelor specificate pentru un anumit limbaj de programare, una care este folosită la scară largă de către dezvoltatorii care lucrează în limbajul respectiv.  
+ 
+„Bibliotecile de sistem” ale unei lucrări executabile includ orice altceva decât lucrarea ca și întreg, care (a) este inclus în forma normală de includere a unui Componente Majore, dar care nu este o parte a respectivei Componente Majore și (b) servește numai la a permite utilizarea lucrării cu respectiva Componentă Majoră, sau la implementarea unei Interfețe Standard pentru care publicului larg îi este disponibilă o implementare sub forma unui cod-sursă. O „Componentă Majoră”, în acest context, semnifică o componentă majoră esențială (kernel, sistem de tip fereastră și așa mai departe) a sistemului specific de operare (dacă există), pe care rulează lucrarea executabilă, sau un compilator folosit la producerea lucrării, sau un interpret al codului-obiect folosit la rularea acesteia.  
+ 
+„Sursa Corespondentă” pentru o lucrare în formă de cod-obiect înseamnă întregul cod-sursă folosit la generarea, instalarea și (pentru o lucrare executabilă) la rularea codului-obiect și la modificarea lucrării, inclusiv scripturi pentru controlarea acestor activități. Cu toate acestea, nu include Bibliotecile de Sistem ale lucrării, sau programe-instrumente folosite în scopuri generale sau programe gratuite disponibile la modul general, care sunt folosite nemodificate în realizarea acestor activități, însă care nu reprezintă parte a lucrării în sine. De exemplu, Sursa Corespondentă include fișiere de definire a interfeței asociate cu fișierele-sursă pentru lucrare, iar codul-sursă pentru bibliotecile partajate și pentru sub-programe conectate în mod dinamic, pe care lucrarea este creată în mod specific să le solicite, cum ar fi comunicarea confidenţială de date sau fluxul de control dintre aceste sub-programe și alte părți ale lucrării.  
+
+Sursa Corespondentă nu trebuie să includă nimic ce utilizatorii ar putea regenera automat din cadrul altor părți ale Sursei Corespondente.  
+
+Sursa Corespondentă pentru o lucrare în forma codului-sursă reprezintă aceeași lucrare.  
+ 
+2. Permisiuni de bază 
+ 
+Toate drepturile acordate prin Licența de față sunt acordate pentru durata drepturilor de autor asupra Programului și sunt irevocabile, cu condiția respectării condițiilor declarate. Prezenta Licență afirmă în mod explicit că aveți permisiunea nelimitată să rulați Programul nemodificat. Rezultatul rulării unei lucrări acoperite este acoperit de către prezenta Licență numai dacă rezultatul, dat fiind conținutul acestuia, constituie o lucrare acoperită. Prezenta Licență vă recunoaște drepturile de utilizare adecvată sau un alt echivalent al acestora, conform prevederilor legii drepturilor de autor.  
+
+Puteți realiza, rula și propaga lucrări acoperite pe care nu le distribuiţi, fără condiții, atâta timp cât licența dvs. se menține în vigoare. Puteți transmite lucrările dvs. acoperite către terți, în unicul scop ca aceștia să realizeze modificări în mod exclusiv pentru dvs., sau pentru ca aceștia să vă ofere facilități în vederea rulării respectivelor lucrări, cu condiția ca dvs. să respectați termenii prezentei Licențe în cadrul transmiterii tuturor materialelor pentru care nu aveți control asupra drepturilor de autor. Terții care realizează sau rulează lucrările acoperite în beneficiul dvs. trebuie să facă acest lucru exclusiv în beneficiul dvs., sub controlul și indicațiile dvs., și cu respectarea termenilor care le interzic să realizeze còpii ale materialului dvs. supus drepturilor de autor, în afara relației lor cu dvs.  
+
+Transmiterea în orice alte situații este permisă numai cu respectarea condițiilor menționate mai jos. Sublicențierea nu este permisă; secțiunea 10 o face inutilă.  
+ 
+3. Protejarea drepturilor legale ale utilizatorilor de Legea anti-eludare 
+ 
+Nicio lucrare acoperită nu va fi considerată ca reprezentând o parte a unei măsuri tehnologice eficiente sub nicio lege aplicabilă care îndeplinește obligațiile articolului 11 ale tratatului WIPO privind drepturile de autor, adoptat la 20 decembrie 1996, sau conform legilor similare ce interzic sau restricționează evitarea acestor măsuri.  
+
+Atunci când transmiteți o lucrare acoperită, renunțați la orice putere legală de a interzice eludarea măsurilor tehnologice, în măsura în care respectiva eludare este realizată prin exercitarea drepturilor conform prezentei Licențe relativ la lucrarea acoperită, iar dvs. renunțați la orice intenție de a limita operarea sau modificarea lucrării ca și măsură de punere în aplicare, față de utilizatorii lucrării, a drepturilor legale ale dvs. sau ale terților de a interzice eludarea măsurilor tehnologice.  
+ 
+4. Furnizarea de còpii literale 
+ 
+Puteți transmite còpii lietrale ale codului-sursă al Programului sub forma în care l-ați primit, în orice mediu, cu condiția să publicați în mod vădit și adecvat, pe fiecare copie, o notificare adecvată cu privire la drepturile de autor; păstrați intacte toate notificările prin care se declară că prezenta Licență și orice termeni nepermisivi adăugați în conformitate cu secțiunea 7, se aplică codului; păstrați intacte toate notificările care se referă la absența oricărei garanții; și furnizați tuturor destinatarilor, odată cu Programul, un exemplar al prezentei Licențe. 
+
+Puteți aplica orice tarif sau chiar niciun tarif pentru fiecare exemplar pe care îl distribuiţi, și puteți oferi asistență sau protecție la garanție contra plății unui onorariu. 
+ 
+5. Furnizarea de versiuni modificate ale sursei 
+ 
+Puteți transmite o lucrare bazată pe Program, sau modificările pentru realizarea acesteia prin derivare de la Program, sub forma unui cod-sursă, conform termenilor secțiunii 4, cu condiția să respectați toate din condițiile de mai jos:  
+ 
+    a) Lucrarea trebuie să includă notificări evidente, care menționează faptul că ați modificato, menționând totodată data relevantă a modificării. 
+    b) Lucrarea trebuie să includă notificări evidente, care declară că aceasta este emisă sub prezenta Licență și toate condițiile adăugate în cadrul secțiunii 7. Această exigență modifică exigența din cadrul secțiunii 4 în „păstrarea intactă a tuturor notificărilor”. 
+    c) Trebuie să licențiați întreaga lucrare, ca și tot unitar, sub prezenta Licență, către oricine intră în posesia unei còpii. Drept pentru care, prezenta Licență se va aplica, împreună cu orice termeni suplimentari din cadrul secțiunii 7, întregii lucrări, cât și tuturor părților acestora, indiferent de modul în care sunt acestea strânse ca pachet. Prezenta Licență nu acordă permisiunea de a licenția lucrarea în orice alt mod, însă nu invalidează o astfel de permisiune, în situația în care aceasta v-a fost acordată separat.  
+    d) În situația în care lucrarea include interfețe interactive de utilizator, fiecare dintre acestea trebuie să afișeze Notificările Legale Adecvate; cu toate acestea, dacă Programul include interfețe interactive, care nu afișează Notificările Legale Adecvate, lucrarea dvs. nu trebuie să le facă să afișeze.  
+ 
+O compilație a unei lucrări acoperite cu alte lucrări separate și independente, care nu sunt, prin natura lor, extensii ale lucrării acoperite, și care nu sunt combinate cu aceasta în vederea constituirii unui program mai mare, în sau pe un volum al unui mediu de stocare sau de distribuire, este denumită „agregat”, în situația în care compilația și drepturile de autori rezultate nu sunt folosite în vederea limitării accesului sau a drepturilor legale ale utilizatorilor compilației, în afara a ceea ce permit lucrările individuale. Includerea unei lucrări acoperite în cadrul unui agregat nu va duce la aplicarea prezentei Licențe și asupra celorlalte părți ale agregatului.  
+ 
+
+6. Transmiterea de forme de tip non-sursă 
+ 
+Puteți transmite o lucrare acoperită în forma unui cod-obiect, conform termenilor secțiunilor 4 și 5, cu condiția să transmiteți și Sursa Corespondentă lizibilă automat de către computer, conform termenilor prezentei Licențe, într-unul din modurile de mai jos:  
+ 
+    a) Transmiterea codului-obiect în cadrul, sau întruchipat într-un produs fizic (inclusiv un mediu fizic de distribuție), însoțit de Sursa Corespondentă, fixată pe un mediu fizic durabil, folosit de obicei la interschimbul software.  
+ 
+    b) Transmiterea codului-obiect în cadrul, sau înglobat într-un produs fizic (inclusiv un mediu fizic de distribuție), însoțit de o ofertă scrisă, valabilă pentru cel puțin trei ani și valabilă atâta timp cât oferiți piese de schimb sau asistență client pentru modelul de produs, pentru a acorda oricui posedă codul-obiect, fie (1) un exemplar al Sursei Corespondente pentru toate programele software din produsul acoperit de prezenta 
+Licență, pe un mediu fizic durabil, folosit de obicei la interschimbul software, pentru un preț nu mai mare decât costul dvs. rezonabil de realizarea fizică a respectivei transmiteri a sursei, sau (2) accesul gratuit la copierea Sursei Corespondente de pe un server de rețea. 
+ 
+    c) Transmiterea de còpii individuale ale codului-obiect, însoțit de un exemplar al ofertei scrise de a furniza Sursa Corespondentă. Această alternativă este permisă numai ocazional și necomercial, și numai în situația în care ați primit codul-obiect printr-o astfel de ofertă, conform subsecțiunii 6b.  
+ 
+    d) Transmiterea codului-obiect prin oferirea accesului dintr-un anumit loc (gratuit sau contra-cost), și oferirea accesului echivalent la Sursa Corespondentă în același mod, prin același loc, fără costuri suplimentare. Nu va trebui să le solicitați destinatarilor să copieze Sursa Corespondentă împreună cu codul-obiect. Dacă locul de unde se copiază codul-obiect este un server de rețea, Sursa Corespondentă poate fi localizată pe un alt server (operat de către dvs. sau de către un terț), care susține facilități echivalente de copiere, cu condiția să furnizați indicații clare lângă codul-obiect, prin care să se indice locul unde poate fi găsită Sursa Corespondentă. Indiferent de serverul care găzduiește Sursa Corespondentă, dvs. veți fi obligat să vă asigurați că aceasta este disponibilă atâta timp cât este necesar în vederea respectării acestor exigențe.  
+ 
+    e) Transmiterea codului-obiect folosind transmiterea peer-to-peer (N.T.: „peer”=parte a unei reţele de computere), cu condiția să informați celelalte părți cu privire la locul unde codul-obiect și Sursa Corespondentă ale lucrării sunt oferite publicului larg, în mod gratuit, conform subsecțiunii 6d.  
+ 
+O parte separabilă a codului-obiect, al cărui cod-sursă este exclus din Sursa Corespondentă ca și Bibliotecă de sistem, nu trebuie să fie inclusă în transmiterea lucrării codului-obiect. 
+ 
+Un „Produs pentru utilizator” este fie (1) un „produs pentru consumator”, ceea ce semnifică orice proprietate individuală tangibilă care este folosită în mod obișnuit în scopuri personale, familiale sau casnice, sau (2) orice, desemnat sau vândut pentru a fi încorporat într-o locuință. 
+
+La stabilirea dacă un produs este un produs pentru consumator, cazurile suspecte vor fi rezolvate în favoarea acoperirii. Pentru un anume produs primit de către un anume utilizator, „folosit în mod normal” înseamnă o utilizare tipică sau comună a respectivei clase de produs, indiferent de statutul respectivului utilizator sau de modul în care respectivul utilizator îl folosește în fapt, sau de modul în care se așteaptă, sau este de așteptat, să fie folosit produsul. Un produs este un produs pentru consumator indiferent dacă produsul are majore utilizări comerciale, industriale sau de non-consumator, cu excepția situației în care respectivele utilizări reprezintă singurul mod semnificativ de utilizare al acestuia.  
+ 
+„Informațiile de instalare” ale unui produs pentru utilizator înseamnă orice metode, proceduri, chei de autorizare sau alte informații necesare în vederea instalării și executării versiunilor modificate ale unei lucrări acoperite din cadrul respectivului produs pentru utilizator, de pe o versiune modificată a Sursei sale Corespondente. Informațiile trebuie să fie suficiente pentru a asigura că funcționarea continuă a codului-obiect modificat nu este în niciun caz împiedicată sau stânjenită numai datorită faptului că s-au realizat modificări.  
+ 
+În cazul în care transmiteți o lucrare cod-obiect conform secțiunii de față, fie în, fie anume pentru a fi utilizată în cadrul unui Produs pentru Utilizator, iar transmiterea are loc ca și parte a unei tranzacții în cadrul căreia dreptul de proprietate și de utilizare asupra Produsului pentru Utilizator este transferat către destinatar în mod definitiv sau pentru o perioadă prestabilită (indiferent de modul în care tranzacția este caracterizată), Sursa Corespondentă transmisă conform prezentei secțiuni trebuie să fie însoțită de informațiile de instalare. Însă această exigență nu se aplică dacă nici dvs. și nici terțul respectiv, nu rețineți capacitatea de a instala codul-obiect modificat asupra produsului pentru utilizator (de exemplu, dacă lucrarea a fost instalată în ROM).  
+ 
+Exigența de a furniza informații de instalare nu include o exigență de a continua să furnizați servicii de asistență, garanție sau actualizări pentru o lucrare care a fost modificată sau instalată de către destinatar, sau pentru Produsul pentru Utilizator, în cadrul căruia aceasta a fost modificată sau instalată. Accesul la o rețea poate fi refuzat atunci când modificarea însăși afectează în mod material și advers funcționarea rețelei, sau încalcă regulile și protocoalele de comunicare din interiorul respectivei rețele.  
+ 
+Sursa Corespondentă transmisă, și informațiile de instalare furnizate, în conformitate cu secțiunea de față, trebuie să fie într-un format înregistrat public (și cu o implementare disponibilă publicului sub forma unui cod-sursă), și trebuie să nu necesite parole sau chei speciale pentru dezarhivare, citire sau copiere.  
+ 
+        7. Termeni suplimentari  
+ 
+„Permisiunile Suplimentare” reprezintă termeni care se adaugă termenilor prezentei Licențe, prin realizarea de excepții de la una sau de la mai multe condiții ale acesteia. Permisiunile suplimentare care sunt aplicabile întregului Program vor fi tratate ca și cum ar fi incluse în prezenta Licență, în măsura în care acestea sunt valabile conform legii aplicabile. În situația în care permisiunile suplimentare se aplică numai unei părți a Programului, respectiva parte poate fi folosită separat conform respectivelor permisiuni, însă întregul Program rămâne guvernat de către prezenta Licență, indiferent de permisiunile suplimentare.  
+ 
+Atunci când transmiteți o copie a unei lucrări acoperite, aveți opțiunea de a elimina orice permisiuni suplimentare din respectiva copie, sau din orice parte a acesteia. (Permisiunile suplimentare pot fi scrise în așa fel încât să solicita propria eliminare în anumite cazuri, atunci când modificați lucrarea.) Puteți aplica permisiuni suplimentare materialului, acestea fiind adăugate de dvs. unei lucrări acoperite, pentru care dețineți sau puteți furniza o permisiune adecvată cu privire la drepturile de autor.  
+ 
+Independent de orice altă prevedere a prezentei Licențe, pentru materialul pe care îl adăugați unei lucrări acoperite, (dacă acest lucru este autorizat de către titularii drepturilor de autor asupra materialului) puteți adăuga la termenii prezentei Licențe următorii termeni: 
+    a) Renunțarea la garanție sau limitarea responsabilității, diferit față de termenii secțiunilor 15 și 16 ai prezentei Licențe; sau 
+    b) Solicitarea păstrării anumitor notificări legale rezonabile sau de atribuții ale autorului din cadrul respectivului material sau din cadrul Notificărilor Legale Adecvate afișate de către lucrarea ce le conține; sau  
+    c) Interzicerea denaturării originii materialului respectiv, sau solicitarea ca versiunile modificate ale respectivului material să fie marcate în moduri rezonabile ca fiind diferite de versiunea originală; sau 
+    d) Limitarea utilizării în scopuri de publicitate ale numelor licențiatorilor sau autorilor materialului; sau 
+    e) Refuzarea de a acorda drepturi conform legii mărcilor comerciale cu privire la folosirea unor denumiri comerciale, mărci comerciale sau mărcilor serviciu; sau 
+    f) Solicitarea plății de despăgubiri către licențiatorii și autorii materialului respectiv, de către oricine transmite materialul (sau versiuni modificate ale acestuia) cu asumarea contractuală a răspunderii de către destinatar, pentru orice responsabilitate impusă în mod direct de către respectivele asumări contractuale licențiatorilor și autorilor respectivi.  
+ 
+Toți ceilalți termeni suplimentari nepermisivi se consideră că reprezintă „restricții suplimentare” în sensul secțiunii 10. Dacă Programul, așa cum l-ați primit, sau orice parte a acestuia, conține o notificare prin care se declară că este guvernat de către prezenta Licență, împreună cu un termen care reprezintă o restricție suplimentară, atunci aveți dreptul de a elimina termenul respectiv. Dacă un document de licențiere conține o restricție suplimentară, însă permite relicențierea sau transmiterea conform prezentei Licențe, aveți dreptul de a adăuga la o lucrare acoperită materiale guvernate de către termenii respectivului document de licențiere, cu condiția ca restricția suplimentară să nu supraviețuiască respectivei relicențieri sau transmiteri.  
+ 
+Dacă adăugați termeni unei lucrări acoperite în conformitate cu secțiunea de față, va trebui să adăugați, în fișierele-sursă relevante, o declarație cu privire la termenii suplimentari care se aplică respectivelor fișiere, sau o notificare indicând locul unde pot fi găsiți termenii aplicabili.  
+ 
+Termenii suplimentari, permisivi sau nepermisivi, pot fi elaborați sub forma unei licențe scrise separate, sau pot fi declarații ca excepții; exigențele de mai sus se aplică în oricare dintre cazuri.  
+ 
+8. Reziliere  
+ 
+Nu aveți dreptul de a propaga sau modifica o lucrare acoperită decât în situația în care acest lucru este stipulat în mod expres în cadrul prezentei Licențe. Orice încercare de a o propaga sau modifica în alt mod sunt nule, și vor rezilia în mod automat drepturile dvs. acordate conform prezentei Licențe (inclusiv orice licențe de brevet acordate conform celui de-al treilea paragraf al secțiunii 11).  
+
+Cu toate acestea, în cazul în care se încetează orice încălcare a prezentei Licențe, atunci licența dvs. din partea unui anumit titular al drepturilor de autor va fi restabilită (a) temporar, cu excepția și până la data la care titularul drepturilor de autor vă reziliază explicit și final licența, și (b) permanent, în situația în care titularul drepturilor de autor nu reușește, prin mijloace rezonabile, să vă informeze cu privire la încălcare cu 60 de zile ulterior încetării.  
+
+În plus, licența dvs. acordată de către un anumit titular de drepturi de autor este restabilită permanent dacă titularul drepturilor de autor vă notifică cu privire la încălcare prin mijloace rezonabile, în situația în care aceasta este prima dată când ați primit notificarea de încălcare a prezentei Licențe (pentru orice lucrare) din partea respectivului titular de drepturi de autor, și dacă remediați încălcarea în interval de 30 de zile de la primirea notificării.  
+
+Rezilierea drepturilor dvs. conform prezentei secțiuni nu reziliază licențele părților care au primit còpii sau drepturi din partea dvs. conform prezentei Licențe. Dacă drepturile dvs. au fost reziliate și nu au fost restabilite permanent, nu vă calificați pentru a primi noi licențe pentru același material, conform secțiunii 10. 
+ 
+9. Acceptarea nu este necesară pentru a deține còpii 
+Nu este necesar să acceptați prezenta Licență în vederea primirii sau rulării unei còpii a Programului. Propagarea auxiliară a unei lucrări acoperite se produce numai ca și consecință a utilizării transmiterii peer-to-peer pentru a primi o copie, drept pentru care nu necesită acceptare. Cu toate acestea, nimic altceva în afară de prezenta Licență nu vă acordă permisiunea de a propaga sau modifica orice lucrare acoperită. Aceste acțiuni încalcă drepturile de autor, în cazul în care nu acceptați prezenta Licență. Drept pentru care, prin modificarea sau propagarea unei lucrări acoperite, ați indicat acceptarea acestei Licențe pentru a face acest lucru.  
+ 
+10. Licențierea automată a destinatarilor ulteriori 
+ 
+Ori de câte ori transmiteți o lucrare acoperită, destinatarul primește automat o licență din partea licențiatorilor inițiali, pentru a rula, modifica și propaga lucrarea respectivă, cu respectarea termenilor prezentei Licențe. Nu sunteți responsabil să obligați terții să respecte termenii prezentei Licențe.  
+
+O „tranzacție de entitate” reprezintă o tranzacție prin care se transferă controlul unei organizații sau se transferă în mod substanțial toate activele uneia, sau prin care se subdivide o organizație, ori prin care fuzionează organizațiile. În situația în care propagarea unei lucrări acoperite are ca rezultat o tranzacție de entitate, fiecare parte a respectivei tranzacții care primește un exemplar al lucrării primește și toate licențele respectivei lucrări care au fost acordate predecesorului respectivei părți, în interesul pe care l-a avut sau l-ar putea transmite conform paragrafului anterior, plus un drept de posesiune asupra Sursei Corespondente a lucrării din partea predecesorului cu privire la interes, în situația în care predecesorul îl deține sau îl poate obține cu eforturi rezonabile.  
+
+Nu aveți dreptul de a impune restricții suplimentare cu privire la exercitarea drepturilor acordate sau afirmate conform prezentei Licențe. De exemplu, nu puteți aplica o taxă de licențiere, plata de redevențe sau alte costuri în vederea exercitării drepturilor acordate conform prezentei Licențe, și nu aveți dreptul de a iniția proceduri de litigiu (inclusiv o contra-solicitare sau o contrapretenție în cadrul unui proces), pretinzând că orice revendicare de brevet este încălcată prin realizarea, folosirea, vânzarea, oferirea spre vânzare sau importul programului sau a oricăror părți ale acestuia.  
+ 
+11. Brevete 
+ 
+Un „colaborator” este un titular al drepturilor de autor care autorizează folosirea, conform prezentei Licențe, a programului sau a unei lucrări pe care se bazează Programul. Lucrarea astfel licențiată se numește „versiunea colaboratorului”. 
+
+„Revendicările esențiale de brevet” ale colaboratorului reprezintă toate revendicările de brevet deținute sau controlate de către colaborator, fie că acestea au fost deja dobândite sau au fost ulterior dobândite, care ar putea fi încălcate în orice fel, permise prin prezenta Licență, de a realiza, folosi sau vinde versiunile de colaborator, însă nu includ revendicări care ar putea fi încălctate numai ca și consecință a modificării ulterioare ale versiunii colaboratorului. În scopurile definiției de față, termenul de „control” include dreptul de a acorda sublicențe de brevet într-un mod prin care se respectă exigențele prezentei Licențe.  
+ 
+Fiecare colaborator vă acordă o licență de brevetare neexclusivă, internaţională și de reproducere liberă, conform revendicărilor esențiale de brevet ale colaboratorului, în vederea realizării, utilizării, vinderii, oferirii spre vânzare, importului și rulării, modificării și propagării prin alte moduri, a conținutului versiunii sale de colaborator.  
+ 
+În următoarele trei paragrafe, o „licență de brevetare” reprezintă orice acord sau angajament expres, în orice fel sunt acestea denumite, de a nu pune în aplicare un brevet (cum ar fi o permisiune expresă de a pune în practică un brevet sau acort realizat pentru a nu deschide procedură judiciară de încălcare a brevetului). A „acorda” o astfel de licență de brevetare unei părți semnifică realizarea unui astfel de acord sau angajament de a nu pune în aplicare un brevet împotriva părții.  
+ 
+În situația în care transmiteți o lucrare acoperită, bazându-vă în cunoștință de cauză pe o licență de brevetare, iar Sursa Corespondentă a lucrării nu este disponibilă nimănui pentru copiere, gratuit și conform termenilor prezentei Licențe, printr-un server de rețea disponibil publicului larg sau prin mijloace accesibile imediat, atunci dvs. trebuie fie (1) să puneți la dispoziție Sursa Corespondentă, sau (2) să vă organizați în așa fel încât să vă lipsiți de beneficiul licenței de brevetare pentru această respectivă lucrare, sau (3) să vă organizați într-un mod care respectă prevederile prezentei Lucrări, pentru a extinde licența de brevetare către destinatarii descendenți. „Să vă bazați în cunoștință de cauză” semnifică faptul că aveți cunoștințe cu privire la faptul că, în afara licențierii de brevetare, dacă transferați lucrarea acoperită într-o țară, sau utilizarea destinatarului dvs. a lucrării acoperite într-o țară,  s-ar încălca unul sau mai multe brevete identificabile în respectiva țară, despre care aveți motive să credeți că sunt valabile.  
+ 
+Dacă, ca urmare sau în legătură cu o singură tranzacție sau aranjament, transmiteți sau propagați prin procurarea transmiterii unei lucrări acoperite, și acordați o licență de brevetare către unele dintre părți care primesc lucrarea acoperită, prin care îi autorizați pe aceștia să folosească, propage, modifice sau transmită o anumită copie a lucrării acoperite, atunci licența de brevetare acordată de dvs. se extinde în mod automat asupra tuturor destinatarilor lucrării respective și asupra lucrărilor bazate pe aceasta.  
+ 
+O licență de brevetare este „discriminatorie” dacă aceasta nu include in scopul acoperirii sale, interzice exercitarea, sau este condiționată de neexercitarea unuia sau mai multor drepturi care sunt acordate în mod specific prin prezenta Licență. Nu puteți transmite o lucrare acoperită dacă sunteți parte într-un acord cu o terță parte care activează în domeniul distribuției de software, conform căruia realizați plăți către respectiva terță parte pe baza activității dvs. în transmiterea respectivei lucrări, și conform căruia respectiva terță parte acordă, către oricare parte care ar primi lucrarea acoperită din partea dvs., o licență de brevetare discriminatorie (a) în legătură cu còpiile lucrării acoperite, furnizate de către dvs. (sau còpii realizate din aceste còpii), sau (b) în principal pentru și în legătură cu produse sau compilații specifice care includ lucrarea acoperită, cu excepția situației în care ați încheiat un acord, sau licența respectivă de brevetare a fost acordată înaintea datei de 28 martie 2007.  
+ 
+Nimic din cadrul prezentei Licențe nu poate fi interpretat ca excluzând sau limitând orice licență implicită sau alte apărări față de încălcare, ce vă pot altminteri fi disponibile conform legii aplicabile privind brevetele.  
+ 
+12. Nu puteți renunța la libertatea altora 
+ 
+În situația în care vi se impun condiții (fie prin decizie judecătorească, acord sau în alt mod) într-un mod care contrazice condițiile prezentei Licențe, acest lucru nu vă exonerează de respectarea condițiilor prezentei Licențe. În cazul în care nu puteți transmite o lucrare acoperită astfel încât să satisfaceți în mod simultan obligațiile dvs. conform prezentei Licențe și orice alte obligații pertinente, atunci nu o veți putea transmite deloc. De exemplu, dacă sunteți de acord cu niște termeni care vă obligă să primiți redevențe pentru transmiterea mai departe de la cei către care transmiteți Programul, singurul mod în care ați putea respecta și termenii prezentei Licențe ar fi de a vă abține total de la transmiterea Programului.  
+ 
+      13. Utilizarea împreună cu Licenţa publică generală GNU Affero Independent de orice alte condiţii ale acestei Licenţe, dumneavoastră aveţi permisiunea să ataşaţi sau să combinaţi orice lucrare acoperită de/cu o lucrare sub licenţa versiunea 3 a Licenţei generale publice GNU Affero într-o singură lucrare combinată şi să trimiteţi lucrarea rezultată. 
+
+Condiţiile Licenţei se vor aplica în continuare la partea care este lucrarea acoperită, dar cerinţele speciale ale  Licenţei generale publice GNU Affero, capitolul 13, privitoare la interacţiunea printr-o reţea se vor aplica la combinaţia ca atare. 
+ 
+      14. Versiuni revizuite ale acestei Licenţe 
+
+Free Software Foundation poate să publice din când în când versiuni revizuite şi/sau noi ale Licenţei generale publice GNU Affero. Astfel de versiuni noi vor fi ca sens similare cu prezenta versiune, dar în detaliu, ele ar putea diferi, adresându-se unor noi probleme sau chestiuni. 
+
+Fiecărei versiuni a Licenţei i se atribuie un număr de versiune distinct. Dacă Programul specifică faptul că la el  se aplică o anumită versiune numerotată a Licenţei publice generale GNU „sau oricare versiune ulterioară”, atunci dumneavoastră aveţi opţiunea să respectaţi termenii şi condiţiile fie a acelei versiuni numerotate, fie a unei versiuni ulterioare care a fost publicată de către Free Software Foundation. Dacă Programul nu specifică un anumit număr de versiune a Licenţei generale publice GNU, puteţi alege orice versiune publicată vreodată de către Free Software Foundation. 
+
+Dacă Programul specifică faptul că o procură poate decide care versiuni viitoare ale Licenţei publice generale GNU pot fi utilizate, atunci acea declaraţie publică din procură, de acceptare a unei anumite versiuni, vă autorizează permanent să alegeţi pentru Program respectiva versiune. 
+Versiunile ulterioare ale licenţei vă pot oferi permisiuni suplimentare sau diferite. În orice caz, nu se vor impune niciunui autor sau deţinător de copyright obligaţii suplimentare, ca rezultat al faptului că a ales să respecte o versiune mai nouă. 
+ 
+        15. Declaraţie de garantare 
+
+NU EXISTĂ NICIO GARANŢIE PENTRU PROGRAM, ÎN MĂSURA PERMISĂ DE LEGEA APLICABILĂ. CU EXCEPŢIA FAPTULUI CÂND SE DECLARĂ ÎN SCRIS ALTCEVA, DEŢINĂTORII DE COPYRIGHT ŞI/SAU ALTE PĂRŢI PUN LA DISPOZIŢIE PROGRAMUL „AŞA CUM ESTE” FĂRĂ NICIO GARANŢIE, FIE EXPRESĂ FIE IMPLICITĂ, INCLUSIV, DAR NELIMITAT LA GARANŢIILE IMPLICITE DE MERCANTILITATE ŞI DE ADECVARE PENTRU UN ANUMIT SCOP. ÎNTREGUL RISC PRIVITOR LA CALITATE ŞI LA PERFORMANŢELE PROGRAMULUI VA FI SUPORTAT DE CĂTRE DUMNEAVOASTRĂ. ÎN CAZUL ÎN CARE PROGRAMUL SE VA DOVEDI DEFECT, VEŢI SUPORTA TOATE COSTURILE NECESARE PENTRU REMEDIERE, REPARARE SAU CORECTARE. 
+ 
+         16. Limitarea răspunderii 
+
+ÎN NICI UN CAZ, CU EXCEPŢIA CAZULUI CÂND ESTE CERUT DE LEGILE ÎN VIGOARE SAU A CAZULUI CÂND S-A CONVENIT ÎN SCRIS, NICI UN DEŢINĂTOR DE COPYRIGHT, SAU ORICE ALTĂ PARTE CARE MODIFICĂ ŞI/SAU TRANSMITE PROGRAMUL CONFORM CELOR PERMISE MAI SUS, NU VA FI RĂSPUNZĂTOR FAŢĂ DE DUMNEAVOASTRĂ PENTRU DAUNE, INCLUSIV ORICE DAUNE GENERALE, SPECIALE, INCIDENTALE SAU IVITE CA URMARE A FAPTULUI UTILIZĂRII SAU INABILITĂŢII DE UTILIZARE A PROGRAMULUI (INCLUSIV, DAR NELIMITAT LA PIERDEREA DE DATE SAU LA DATE CARE AU FOST REDATE CA INEXACTE, SAU LA PIERDERI SUPORTATE DE CĂTRE DUMNEAVOASTRĂ SAU DE CĂTRE TERŢE PĂRŢI, SAU LA O EROARE A PROGRAMULUI, DE A OPERA CU ORICE ALTE PROGRAME), CHIAR DACĂ VREUN ASTFEL DE DEŢINĂTOR SAU O TERŢĂ PARTE AU FOST AVERTIZAŢI PRIVITOR LA POSIBILIATTEA UNOR ASTFEL DE DAUNE. 
+  
+        17. Interpretarea capitolelor 15 şi 16 
+
+În cazul în care declaraţia de garantare şi limitarea răspunderii, menţionate mai sus, nu vor avea efecte legale locale conform condiţiilor din acestea, atunci instanţele de revizuire vor aplica legea locală care aproximează cât mai apropiat o renunţare absolută la orice răspundere civilă legat de Program, cu excepţia cazului în care vreo garanţie sau vreo asumare de răspundere însoţesc o copie a Programului, contra unei taxe. 
+SFÂRŞITUL TERMENILOR ŞI CONDIŢIILOR 
+ 
+ 
+Cum să aplicaţi aceşti termeni la noul dumneavoastră Program 
+
+În cazul în care dezvoltaţi un nou program şi dacă doriţi să fie cât mai uşor de utilizat de către public, atunci cel mai bun mod în care puteţi obţine acest lucru este să îl concepeţi ca software liber, pe care oricine îl poate redistribui şi modifica, în aceste condiţii. 
+
+Pentru a face acest lucru, ataşaţi următoarele menţiuni la program. Este cel mai sigur să le ataşaţi la începutul oricărei surse de fişier, pentru a declara cât mai eficient excluderea garanţiei; şi fiecare fişier ar trebui să aibă cel puţin rândul de „copyright” şi o direcţionare către locaţia unde se găseşte menţiunea integrală. 
+   <un rând care menţionează numele programului şi o scurtă descriere a ceea ce face acesta.> Copyright © <anul> <numele autorului> 
+ 
+Acest program este un software liber: dumneavoastră îl puteţi redistribui şi/sau modifica, în condiţiile Licenţei publice generale GNU, aşa cum a fost aceasta publicată de către Free Software Foundation, fie versiunea 3 a acestei Licenţe, fie (la alegerea dumneavoastră), orice versiune ulterioară. 
+
+Acest program este distribuit în speranţa că va fi util, dar FĂRĂ NICIO GARANŢIE; chiar şi fără garanţia implicită de MERCANTILITATE sau de ADECVARE PENTRU UN ANUMIT SCOP. Vezi Licenţa publică generală GNU pentru mai multe detalii. 
+
+Trebuie ca dumneavoastră să fi primit o copie a Licenţei publice generale GNU împreună cu acest program. Dacă nu, vezi <htpps://www.gnu.org/licenses/>.  
+ 
+Comenzile ipotetice „arată w” şi „arată c” ar trebui să arate părţile adecvate ale Licenţei publice generale. Desigur, comenzile programului dumneavoastră pot fi diferite; de pe o interfaţă GUI, dumneavoastră ar trebui să utilizaţi o „casetă despre”. 
+
+Ar trebui de asemenea ca angajatorul dumneavoastră (în cazul în care lucraţi ca şi programator) sau şcoala, dacă este cazul, să vă semneze o „renunţare la copyright” pentru program, dacă este necesar. 
+Pentru mai multe informaţii în acest sens şi despre cum se aplică sau se respectă GNU GPL, vezi <htpps://www.gnu.org/licenses/>. 
+
+Licenţa publică generală GNU nu permite incorporarea programului dumneavoastră în programe cu drept de proprietate. În cazul în care programul dumneavoastră este o bibliotecă de subrutină, ar trebui să consideraţi mai util să permiteţi aplicaţiilor cu drept de proprietate să acceseze biblioteca. Dacă doriţi să faceţi acest lucru, utilizaţi Licenţa GNU publică generală redusă, în locul acestei Licenţe. Dar mai întâi, vă rugăm să citiţi 
+<htpps://www.gnu.org/licenses/why-not-lgpl.html>. 
+  
+ 
+ --- 
+Obs.: 
+Responsabil traducere Alin Anton (alin.anton@cs.upt.ro), traducator autorizat Cristina-Codruta Popescu autorizatia nr. 1686 Ministerul Justitiei RO 
+Responsible for the translation Alin Anton (alin.anton@cs.upt.ro), authorized translator Cristina-Codruta Popescu autorization no. 1686 Ministry of Justice, Romania 
