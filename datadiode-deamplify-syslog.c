@@ -139,7 +139,7 @@ int main(void)
     addr_len = sizeof their_addr;
 
     memset(&hints, 0, sizeof hints);
-    hints.ai_family = AF_INET6; // set to AF_INET6 to use IPv6
+    hints.ai_family = AF_INET; // set to AF_INET6 to use IPv6, syslog 514 is usually on IPv4
     hints.ai_socktype = SOCK_DGRAM;
 
     if ((rv = getaddrinfo("localhost", SERVERPORT, &hints, &servinfo)) != 0) {
