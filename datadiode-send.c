@@ -397,6 +397,7 @@ void send_file(char *file_path, destination_t *dest_clear, destination_t *dest_x
      		// Build the packet (file id, size, part number, and data)
 		send_slice(dest_clear->socketfd, pack, dest_clear->dest);  
 		// Send over clear channel, this call must be bw paced
+		usleep(100);
 	}
 
 	usleep(500000); // wait half a second
