@@ -51,7 +51,7 @@
 #include "fountain.h"
 #define SEED 777		
 uint8_t SPRAY = 6;
-uint8_t CLEAR_SPRAY = SPRAY; // can be SPRAY/2+1
+uint8_t CLEAR_SPRAY = 6; // can be SPRAY/2+1
 uint8_t XOR_GROUP_SIZE = 4; 
 
 /* protocol description 
