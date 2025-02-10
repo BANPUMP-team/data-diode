@@ -24,12 +24,6 @@
  *
  *  Increase UDP send and receive buffers to 2GB if you can afford it:
  *
- *  echo "net.core.rmem_max=2147483648" | sudo tee -a /etc/sysctl.conf
- *  echo "net.core.rmem_default=2147483648" | sudo tee -a /etc/sysctl.conf
- *  echo "net.core.wmem_max=2147483648" | sudo tee -a /etc/sysctl.conf
- *  echo "net.core.wmem_default=2147483648" | sudo tee -a /etc/sysctl.conf
- *  echo "net.ipv4.udp_mem=2147483648" | sudo tee -a /etc/sysctl.conf
- *  sudo sysctl -p
 */
 
 #define _GNU_SOURCE
