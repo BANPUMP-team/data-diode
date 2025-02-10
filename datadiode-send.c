@@ -51,6 +51,7 @@
 #include "fountain.h"
 #define SEED 777		
 uint8_t SPRAY = 6;
+uint8_t CLEAR_SPRAY = SPRAY; // can be SPRAY/2+1
 uint8_t XOR_GROUP_SIZE = 4; 
 
 /* protocol description 
@@ -397,12 +398,13 @@ void send_file(char *file_path, destination_t *dest_clear, destination_t *dest_x
      		// Build the packet (file id, size, part number, and data)
 		send_slice(dest_clear->socketfd, pack, dest_clear->dest);  
 		// Send over clear channel, this call must be bw paced
-		usleep(100);
+		usleep(100); //usleep(100);
 	}
 
-	usleep(500000); // wait half a second
 	fprintf(stderr, "Sent the sequencial packets.\n");
 	fprintf(stderr, "Wait half a second...\n");
+	usleep(500000); // wait half a second
+	fprintf(stderr, "Now sending shuffled clear/XORed packets mix + checksum\n");
 
 	// add part number and content corresponding to each slice
 	uint32_t rounds = (slices + (10 - 1))/ 10;		// 10% of the slices rounded up
@@ -419,10 +421,10 @@ void send_file(char *file_path, destination_t *dest_clear, destination_t *dest_x
 			send_slice(dest_check -> socketfd, pack, dest_check -> dest);
 		}
 		
-		// send packets in clear
+		// send packets in clear ; make CLEAR_SPRAY=1 here
 		msg.data = databuf;
-		for(uint32_t j=0; j<rounds*SPRAY; j++) {
-			if(parts1 >= slices*SPRAY) 	// skip rest of the cycle if already sent all packets
+		for(uint32_t j=0; j<rounds*CLEAR_SPRAY; j++) {
+			if(parts1 >= slices*CLEAR_SPRAY) 	// skip rest of the cycle if already sent all packets
 				break;
 			//msg.part_no = i*rounds + j + 1; ---> for in order transmission
 			msg.part_no = rand() % slices + 1;
@@ -454,8 +456,8 @@ void send_file(char *file_path, destination_t *dest_clear, destination_t *dest_x
 		}
 	}
 
-	fprintf(stderr, "Done sending shuffled clear/XORed packets.");
-	
+	fprintf(stderr, "Done sending shuffled clear/XORed packets mix.\n");
+	fprintf(stderr, "Now sending 1000 EOF packets for 10 seconds..\n");
 	// send EOF packet 
 	for(uint32_t j=0; j<10000; j++)
 	{
@@ -463,10 +465,11 @@ void send_file(char *file_path, destination_t *dest_clear, destination_t *dest_x
 		msg.data = checksum;
 		serialize(msg, pack);
 		send_slice(dest_check -> socketfd, pack, dest_check -> dest);
-		usleep(1000);
+		usleep(1000); // could use send_slice paced at 70 Mbps
 	}
 	
 	fprintf(stderr, "Finished sending EOF.\n");
+	fprintf(stderr, "Done.\n");
 
 	/* CLEAN UP */
 	free(index);
