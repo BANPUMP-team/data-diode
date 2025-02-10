@@ -19,7 +19,17 @@
  *      You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>. 
  *
  *      An unofficial Romanian translation of the GNU General Public License is available here: <https://staff.cs.upt.ro/~gnu/Licenta_GPL-3-0_RO.html>.                                        
-*/ 
+ *
+ *  Increase UDP send and receive buffers to 2GB if you can afford it:
+ *
+ *  echo "net.core.rmem_max=2147483648" | sudo tee -a /etc/sysctl.conf
+ *  echo "net.core.rmem_default=2147483648" | sudo tee -a /etc/sysctl.conf
+ *  echo "net.core.wmem_max=2147483648" | sudo tee -a /etc/sysctl.conf
+ *  echo "net.core.wmem_default=2147483648" | sudo tee -a /etc/sysctl.conf
+ *  echo "net.ipv4.udp_mem=2147483648" | sudo tee -a /etc/sysctl.conf
+ *  sudo sysctl -p
+*/
+
 #define _GNU_SOURCE
 #include <netinet/in.h>
 #include <errno.h>
