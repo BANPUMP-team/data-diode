@@ -10,6 +10,8 @@
  *                       Eugenia Capota <eugenia.capota@cs.upt.ro>
  *                       Petra Csereoka <petra.csereoka@cs.upt.ro>
  *                       Bianca Gusita <bianca.gusita@cs.upt.ro>
+ *                       Catalin Cereanu <catalin.cereanu@cs.upt.ro> (student)
+ *			 Honu Andrei (student)
  *
  *      This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation,
  *      either version 3 of the License, or (at your option) any later version.
