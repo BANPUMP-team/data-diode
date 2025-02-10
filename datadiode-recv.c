@@ -1,6 +1,7 @@
 /*
  *      (C) 2024 Petra Csereoka <petra.csereoka@cs.upt.ro>
- *       
+ *                Alin-Adrian Anton <alin.anton@cs.upt.ro>
+ *
  *      This software is used internally at the Politehnica University of Timisoara to upload files through data diodes and recover the missing packets.
  *      It is based on Beej's Guide on Network Programming and uses code snippets from Numerical Recipes by William H. Press, Saul A. Teukolsky,
  *      William T. Vetterling and Brian P. Flannery.
