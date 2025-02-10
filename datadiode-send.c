@@ -12,7 +12,6 @@
  *                       Bianca Gusita <bianca.gusita@cs.upt.ro>
  *                       Catalin Cereanu <catalin.cereanu@cs.upt.ro> (student)
  *			 Honu Andrei (student)
- *
  *      This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation,
  *      either version 3 of the License, or (at your option) any later version.
  *
@@ -255,7 +254,7 @@ unsigned char *get_checksum(int fd, uint32_t slices) {
 }
 
 // serialize information from the struct into packet data field
-void serialize(packet_t packet, unsigned char *msg) {
+void serialize(packet_t packet, unsigned char *msg) { //FIXME reversed
 	memset(msg, 0, MAXBUFLEN);
 
 	// copy fileid
@@ -387,6 +386,23 @@ void send_file(char *file_path, destination_t *dest_clear, destination_t *dest_x
 		exit(14);
 	}
 	
+    /* === NEW LOOP: Send the full file in clear, sequentially === */
+	for (uint32_t s = 0; s < slices; s++) {
+		msg.part_no = s + 1;  
+		// Use slice index+1 as part number (parts are numbered from 1)
+		fill_clear_data(fd, msg.part_no - 1, databuf);  
+		msg.data = databuf;
+		// Read the slice from file at position s
+		serialize(msg, pack);  
+     		// Build the packet (file id, size, part number, and data)
+		send_slice(dest_clear->socketfd, pack, dest_clear->dest);  
+		// Send over clear channel, this call must be bw paced
+	}
+
+	usleep(500000); // wait half a second
+	fprintf(stderr, "Sent the sequencial packets.\n");
+	fprintf(stderr, "Wait half a second...\n");
+
 	// add part number and content corresponding to each slice
 	uint32_t rounds = (slices + (10 - 1))/ 10;		// 10% of the slices rounded up
 	uint32_t parts1 = 0, parts2 = 0;
@@ -436,9 +452,11 @@ void send_file(char *file_path, destination_t *dest_clear, destination_t *dest_x
 			parts2++;
 		}
 	}
+
+	fprintf(stderr, "Done sending shuffled clear/XORed packets.");
 	
 	// send EOF packet 
-	for(uint32_t j=0; j<1000; j++)
+	for(uint32_t j=0; j<10000; j++)
 	{
 		msg.part_no = (unsigned)(-1);
 		msg.data = checksum;
@@ -447,6 +465,8 @@ void send_file(char *file_path, destination_t *dest_clear, destination_t *dest_x
 		usleep(1000);
 	}
 	
+	fprintf(stderr, "Finished sending EOF.\n");
+
 	/* CLEAN UP */
 	free(index);
 	free(databuf);
