@@ -444,7 +444,7 @@ void send_file(char *file_path, destination_t *dest_clear, destination_t *dest_x
 		msg.data = checksum;
 		serialize(msg, pack);
 		send_slice(dest_check -> socketfd, pack, dest_check -> dest);
-		usleep(1000000);
+		usleep(1000);
 	}
 	
 	/* CLEAN UP */
