@@ -1,5 +1,5 @@
 /*
- *      (C) 2024 Petra Csereoka <petra.csereoka@cs.upt.ro>
+ *      (C) 2024, 2025 Petra Csereoka <petra.csereoka@cs.upt.ro>
  *       
  *      This software is used internally at the Politehnica University of Timisoara to upload files through data diodes and recover the missing packets.
  *      It is based on Beej's Guide on Network Programming and uses code snippets from Numerical Recipes by William H. Press, Saul A. Teukolsky,
@@ -35,6 +35,13 @@
 #include <string.h>
 #include <stdint.h>
 
+#include <sys/select.h>
+#include <time.h>
+
+/* CHUNK_SIZE is MTU > MAXBUFLEN */
+#define CHUNK_SIZE 1500 // 1048576 1 MB chunks for efficient high-speed transfer
+#define TARGET_MBPS 900  // Target bandwidth in Megabits per second
+			
 /* verbose debug information */
 //#define DEBUG
 /* basic debug information */
@@ -61,6 +68,9 @@ uint8_t XOR_GROUP_SIZE = 4;
 #define PARTLEN 4
 #define DATALEN 1364
 #define MAXBUFLEN 1472
+
+uint64_t total_bytes = 0;  // Total bytes processed, maximum is 18.4 exabytes
+struct timespec start_time; // for bandwidth pacing
 
 // contain information related to networking
 typedef struct {
@@ -278,12 +288,38 @@ void serialize(packet_t packet, unsigned char *msg) {
 // send a slice from a file to the receiver
 void send_slice(int sockfd, unsigned char *msg, struct addrinfo *dest) {
 	int numbytes = 0;
+	struct timespec current_time;
 		
 	if ((numbytes = sendto(sockfd, msg, MAXBUFLEN, 0, dest->ai_addr, dest->ai_addrlen)) == -1) { 
 		perror("[sender] sendto failed for socket1");
 		exit(10);
 	}
-	
+
+	total_bytes += numbytes;
+
+   // Calculate the expected time to process CHUNK_SIZE at TARGET_MBPS
+ //   double target_time_per_chunk = (8.0 * CHUNK_SIZE) / (TARGET_MBPS * 1000000.0);  // in seconds
+
+    // Calculate the expected elapsed time (in seconds) for the amount of data sent
+	double expected_time = (total_bytes * 8.0) / (TARGET_MBPS * 1000000.0);
+
+	// Get current time and compute actual elapsed time
+	if (clock_gettime(CLOCK_MONOTONIC, &current_time) != 0) {
+	    perror("clock_gettime");
+	    exit(EXIT_FAILURE);
+	}
+	double elapsed_time = (current_time.tv_sec - start_time.tv_sec) +
+        	              (current_time.tv_nsec - start_time.tv_nsec) / 1e9;
+
+	// If we’re ahead of schedule, sleep for the remaining time
+	if (elapsed_time < expected_time) {
+	    double sleep_time = expected_time - elapsed_time;
+	    struct timeval delay;
+	    delay.tv_sec = (int)sleep_time;
+	    delay.tv_usec = (sleep_time - delay.tv_sec) * 1e6;
+	    select(0, NULL, NULL, NULL, &delay);
+	}
+
 	#ifdef DEBUG
 		printf("numbytes sendto = %d\n ->", numbytes);
 		for(int64_t i=0; i<MAXBUFLEN; i++)
@@ -399,13 +435,14 @@ void send_file(char *file_path, destination_t *dest_clear, destination_t *dest_x
 		}
 	}
 	
-	// send EOF packet
+	// send EOF packet 
 	for(uint32_t j=0; j<1000; j++)
 	{
 		msg.part_no = (unsigned)(-1);
 		msg.data = checksum;
 		serialize(msg, pack);
 		send_slice(dest_check -> socketfd, pack, dest_check -> dest);
+		usleep(1000000);
 	}
 	
 	/* CLEAN UP */
@@ -425,7 +462,7 @@ int main(int argc, char *argv[]) {
 	// process data from outside
 	if(argc != 6) {
 		fprintf(stderr, "[usage] <program> <IP> <port> <filename> <xor-size> <spray>\n");
-		fprintf(stderr, "[usage] File will be sent on 3 consecutive ports starting with <port>\n");
+		fprintf(stderr, "[usage] File will be sent on 3 consecutive ports starting with <port> at %u Mbps\n", TARGET_MBPS);
 		exit(16);
 	}
 		
@@ -456,6 +493,11 @@ int main(int argc, char *argv[]) {
 	SPRAY = atoi(argv[5]);
 	
 	/* SEND FILE */
+	// Get the start time for the overall copy
+	if (clock_gettime(CLOCK_MONOTONIC, &start_time) != 0) {
+	    perror("clock_gettime");
+	    exit(EXIT_FAILURE);
+	}
 	send_file(argv[3], &dest_clear, &dest_xored, &dest_check);
 
 	/* CLEAN UP */
